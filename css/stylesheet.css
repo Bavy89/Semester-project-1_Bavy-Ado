@@ -15,8 +15,9 @@ body {background-color: #FFC845;}
 
 @media (max-width:850px) {
   .nav > .nav-btn {display: inline-block;position: absolute;right: 0px;top: 0px;}
-  .nav > .nav-btn > label {display: inline-block;width: 50px;height: 50px;padding: 13px;}
-  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {background-color: rgba(0, 0, 0, 0.1);}
+  .nav > .nav-btn > label {display: inline-block;width: 100%x;height: 100%;padding: 13px;}
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {background-color: rgba(0, 0, 0, 0.2);}
+  .nav > .nav-btn > label:hover,.nav  #nav-check:not(:checked) ~ .nav-btn > label {background-color: rgba(0, 0, 0, 0.2);}
   .nav > .nav-btn > label > span {display: block;width: 25px;height: 10px;border-top: 2px solid #eee;}
   .nav > .navigation {position: absolute;display: grid;width: 100%;background-color: #d6d2c4;height: 0px;transition: all 0.3s ease-in;overflow-y: hidden;top: 50px;left: 0px;}
   .nav > .navigation > a {display: block;width: 100%;}
@@ -24,5 +25,4 @@ body {background-color: #FFC845;}
   .nav > #nav-check:checked ~ .navigation {height: calc(70vh - 50px);overflow-y: auto;}
   .text-image {font-size: 10px;width: 80%;font-family: 'Open Sans', sans-serif;margin-left: 0px;}
   .image1-index img {margin-top: -300px;margin-left: 0px;}
-
 }
