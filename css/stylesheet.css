@@ -44,7 +44,7 @@ body {background-color: #FFC845;}
 .navigation li a{color: #000000;text-decoration:none;font-size:18px;}
 }
 
-@media (max-width:500px) {
+@media (max-width:585px) {
 .navigation li a{color: #000000;text-decoration:none;font-size:12px;}
 }
 
