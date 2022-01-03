@@ -36,6 +36,16 @@ body {background-color: #FFC845;}
 }
 
 @media (max-width:880px) {
+ .navigation {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+  }
+  
+  
   
   }
 
