@@ -40,7 +40,11 @@ body {background-color: #FFC845;}
 }
 
 
-@media (max-width:482px) {
+@media (max-width:700px) {
 .navigation li a{color: #000000;text-decoration:none;font-size:18px;}
+}
+
+@media (max-width:500px) {
+.navigation li a{color: #000000;text-decoration:none;font-size:12px;}
 }
 
