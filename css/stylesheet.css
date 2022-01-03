@@ -17,6 +17,19 @@ body {background-color: #FFC845;}
 .top-area {width: 100%;height: 180px;background: #2E2E2E;}
 
 
+@media (max-width:880px) {
+.navigation li a{font-size:25px;}
+}
+
+
+@media (max-width:700px) {
+.navigation li a{font-size:18px;}
+}
+
+@media (max-width:585px) {
+.navigation li a{font-size:12px;}
+}
+
 
 
 @media (max-width:480px) {
@@ -35,18 +48,6 @@ body {background-color: #FFC845;}
   .top-area {width: 100%;height: 43px;background: #2E2E2E; }
   .logo-img img {height: 100%; width: 90%; margin-left: 1%;margin-top: 2px;}
   .logo-img {justify-content: unset;}
+  .navigation li a{font-size:25px;}
+
 }
-
-@media (max-width:880px) {
-.navigation li a{color: #000000;text-decoration:none;font-size:25px;}
-}
-
-
-@media (max-width:700px) {
-.navigation li a{color: #000000;text-decoration:none;font-size:18px;}
-}
-
-@media (max-width:585px) {
-.navigation li a{color: #000000;text-decoration:none;font-size:12px;}
-}
-
