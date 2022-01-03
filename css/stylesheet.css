@@ -36,10 +36,11 @@ body {background-color: #FFC845;}
 }
 
 @media (max-width:880px) {
-	
 .navigation li a{color: #000000;text-decoration:none;font-size:25px;}
- 
-
 }
 
+
+@media (max-width:700px) {
+.navigation li a{color: #000000;text-decoration:none;font-size:18px;}
+}
 
