@@ -46,12 +46,13 @@ body {background-color: #FFC845;}
 .bottom center a{color: #f12020;text-decoration: none;}
 .bottom center a:hover{text-decoration: underline;}
 
+
+/*Responsive*/
+
 @media screen and (max-width: 900px) {
   .main-content{flex-wrap: wrap;flex-direction: column;}
   .main-content .box{margin: 5px 0;}
 }
-
-
 
 @media (max-width:880px) {
 .navigation li a{font-size:25px;}
@@ -66,8 +67,6 @@ body {background-color: #FFC845;}
 .navigation li a{font-size:12px;}
 }
 
-
-
 @media (max-width:480px) {
   .nav-btn {display: inline-block;position: absolute;right: 0px;top: 0px;}
   .nav-btn > label {display: inline-block;width: 100%x;height: 100%;padding: 13px;}
@@ -78,10 +77,12 @@ body {background-color: #FFC845;}
   #nav-check:checked ~ .navigation {height: 50vh; overflow: auto;}
   .text-image {font-size: 10px;width: 80%;font-family: 'Poppins', sans-serif;margin-left: 0px;}
   .image1-index img {margin-left: 0px; width: 100%; height: 100%;}
-  .blackarea-1 {width: 100%;height: 300px;background: none;}
-  .blackarea-2 {width: 100%;height: 300px;background: none;}
-  .blackarea-3 {width: 100%;height: 300px;background: none;}
+  .blackarea-1 {background: none;}
+  .blackarea-2 {background: none;}
+  .blackarea-3 {background: none;}
   .top-area {width: 100%;height: 43px;background: #2E2E2E; }
   .logo-img img {height: 100%; width: 90%; margin-left: 1%;margin-top: 2px;}
   .logo-img {justify-content: unset;}
   .navigation li a{font-size:25px;}
+
+  /*Responsive*/
