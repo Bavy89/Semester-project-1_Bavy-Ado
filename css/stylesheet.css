@@ -4,7 +4,7 @@ body {background-color: #FFC845;}
 .blackarea-1 {width: 100%;height: 300px;background: #000000;}
 .blackarea-2{width: 100%;height: 300px;background: #000000;}
 .blackarea-3{width: 100%;height: 300px;background: #000000;}
-.triangle-topright { width: 0; height: 0; border-top: 100px solid #464956; border-left: 100px solid transparent;float: right;opacity: 0.4;}
+.triangle-topright { width: 0; height: 0; border-top: 300px solid #464956; border-left: 300px solid transparent;float: right;opacity: 0.2;}
 .navigation {list-style:none;display:table;margin:0 auto;padding:0;}
 .navigation li{float:left;margin-right:50px;margin-top: 20px;margin-bottom: 20px;}
 .navigation li a{color: #000000;text-decoration:none;font-size:35px;}
@@ -30,6 +30,7 @@ body {background-color: #FFC845;}
 
 .left .content p{text-align: justify;color: #ffffff;font-family: 'Poppins', sans-serif;}
 
+.fab {margin-top: 60px;color: #FFFDE4;}
 
 .center .content .text{font-size: 1.0625rem;font-weight: 500;}
 .center .content .phone{margin: 15px 0;}
@@ -62,6 +63,7 @@ body {background-color: #FFC845;}
 
 @media (max-width:700px) {
 .navigation li a{font-size:18px;}
+.triangle-topright {display: none;}
 }
 
 @media (max-width:585px) {
@@ -85,5 +87,7 @@ body {background-color: #FFC845;}
   .logo-img img {height: 100%; width: 90%; margin-left: 1%;margin-top: 2px;}
   .logo-img {justify-content: unset;}
   .navigation li a{font-size:25px;}
+  .triangle-topright {display: none;}
+
 
   /*Responsive*/
