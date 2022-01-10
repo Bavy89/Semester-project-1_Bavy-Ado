@@ -85,6 +85,9 @@ body {background-color: #FFC845;}
   .blackarea-1 {background: none;}
   .blackarea-2 {background: none;}
   .blackarea-3 {background: none;}
+  .back-style1 img {display: none;}
+  .back-style2 img {display: none;}
+  .back-style3 img {display: none;}
   .top-area {width: 100%;height: 43px;background: #2E2E2E; }
   .logo-img img {height: 100%; width: 90%; margin-left: 1%;margin-top: 2px;}
   .logo-img {justify-content: unset;}
