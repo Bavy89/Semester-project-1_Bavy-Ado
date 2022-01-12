@@ -95,7 +95,7 @@ body {background-color: #FFC845;}
   #nav-check:checked ~ .navigation {height: 50vh; overflow: auto;}
   .text-image {font-size: 10px;width: 80%;font-family: 'Poppins', sans-serif;margin-left: 0px;}
   .image1-index img {margin-left: 0px; width: 100%; height: 100%;}
-  .blackarea-1 {width: 0;height: 0;background: none;}
+  .blackarea-1 {background: none;}
   .blackarea-2 {background: none;}
   .blackarea-3 {background: none;}
   .back-style1 img {display: none;}
