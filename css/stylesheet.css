@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 body {background-color: #FFC845;}
-.blackarea-1 {width: 100%;height: 300px;background: #000000;}
-.blackarea-2{width: auto;height: 300px;background: #000000;}
+.blackarea-1{width: 100%;height: 300px;background: #000000;}
+.blackarea-2{width: 100%;height: 300px;background: #000000;}
 .blackarea-3{width: 100%;height: 300px;background: #000000;}
 .back-style1 img {height: 300px;margin-left: 397px; float: right;}
 .back-style2 img {height: 300px;margin-left: 397px; float: right;}
@@ -25,6 +25,9 @@ body {background-color: #FFC845;}
 .paralellogram > span {transform: skewX(-30deg);}
 .responsive-map iframe {margin-top: -300px;display: block;margin-left: auto;margin-right: auto; width: 60%;}
 .text-image1 li {list-style: circle; color: #000000; font-size: 20px; font-family: open sans-serif; margin-left: -19px;}
+.image-involved-1 img {margin-top: -180px;display: block;margin-left: auto;margin-right: auto; width: 60%;}
+.image3-involved img {margin-top: -180px;-webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px;width: 30%;}
+
 
 
  
@@ -66,7 +69,10 @@ body {background-color: #FFC845;}
 @media screen and (max-width: 900px) {
   .main-content{flex-wrap: wrap;flex-direction: column;}
   .main-content .box{margin: 5px 0;}
-  .blackarea-2 {background: none;}
+  .image-involved-1 img {margin-top: -180px;display: block;margin-left: auto;margin-right: auto; width: 100%;}
+  .image3-involved img {width: 60%;}
+
+
 
 }
 
@@ -74,6 +80,7 @@ body {background-color: #FFC845;}
 .navigation li a{font-size:25px;}
 .image-museum img {width: 100%;}
 .responsive-map iframe {margin-top: -300px;display: block;margin-left: auto;margin-right: auto; width: 85%;}
+
 
 
 }
@@ -112,6 +119,8 @@ body {background-color: #FFC845;}
   body {overflow-x: hidden;}
   .image1-index img {margin-left: 0px; max-width: 100%;}
   .responsive-map iframe {margin-top: -330px;display: block;margin-left: auto;margin-right: auto; width: 100%;}
+  .image-involved-1 img {margin-top: -330px;display: block;margin-left: auto;margin-right: auto; width: 100%;}
+
 
 
 
