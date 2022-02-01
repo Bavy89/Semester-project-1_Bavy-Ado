@@ -27,7 +27,7 @@ body {background-color: #FFC845;}
 .responsive-map iframe {margin-top: -300px;display: block;margin-left: auto;margin-right: auto; width: 60%;}
 .text-image1 li {list-style: circle; color: #000000; font-size: 20px; font-family: open sans-serif; margin-left: -19px;}
 .image-involved-1 img {margin-top: -180px;display: block;margin-left: auto;margin-right: auto; width: 60%;}
-.image3-involved img {margin-top: -180px;-webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px;width: 30%;}
+.image3-involved img {margin-top: -180px;-webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px;width: 30%;display: flex;justify-content: center;}
 
 
 
