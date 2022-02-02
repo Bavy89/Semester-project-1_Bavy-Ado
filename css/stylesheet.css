@@ -40,14 +40,29 @@ body {background-color: #FFC845;}
 .swipe-exhibition2:hover:before {transform: scaleX(1);border-radius: 5px;}
 
 .swipe-exhibition3 {width: 50%;height: 40px;margin-left: 0;transition: color 0.3s;transform: perspective(1px) translateZ(0);}
-.swipe-exhibition3:before {content: "We’re not done evolving";position: absolute;top: 0;left: 0;right: 10;bottom: 0;z-index: -1;background: #2098D1;transform: scaleX(0.05);transform-origin: 0 50%;transition: transform 0.5s ease-out;}
+.swipe-exhibition3:before {content: "Your heart beats about 115,000 every day.";position: absolute;top: 0;left: 0;right: 10;bottom: 0;z-index: -1;background: #2098D1;transform: scaleX(0.05);transform-origin: 0 50%;transition: transform 0.5s ease-out;}
 .swipe-exhibition3:hover {color: white;}
 .swipe-exhibition3:hover:before {transform: scaleX(1);border-radius: 5px;}
 
 .swipe-exhibition4 {width: 50%;height: 40px;margin-left: 0;transition: color 0.3s;transform: perspective(1px) translateZ(0);}
-.swipe-exhibition4:before {content: "We’re not done evolving";position: absolute;top: 0;left: 0;right: 10;bottom: 0;z-index: -1;background: #2098D1;transform: scaleX(0.05);transform-origin: 0 50%;transition: transform 0.5s ease-out;}
+.swipe-exhibition4:before {content: "Most people start viewing websites from the top left corner. It’s how we’ve been trained to search for data and information.";position: absolute;top: 0;left: 0;right: 10;bottom: 0;z-index: -1;background: #2098D1;transform: scaleX(0.05);transform-origin: 0 50%;transition: transform 0.5s ease-out;}
 .swipe-exhibition4:hover {color: white;}
 .swipe-exhibition4:hover:before {transform: scaleX(1);border-radius: 5px;}
+
+.swipe-explore1 {width: 50%;height: 40px;margin-left: 0;transition: color 0.3s;transform: perspective(1px) translateZ(0);}
+.swipe-explore1:before {content: "Dolphins only shut half their brain off when sleeping. The other half stays at a low level of alertness to protect against predators, obstacles, or other animals.";position: absolute;top: 0;left: 0;right: 10;bottom: 0;z-index: -1;background: #2098D1;transform: scaleX(0.05);transform-origin: 0 50%;transition: transform 0.5s ease-out;}
+.swipe-explore1:hover {color: white;}
+.swipe-explore1:hover:before {transform: scaleX(1);border-radius: 5px;}
+
+.swipe-explore2 {width: 50%;height: 40px;margin-left: 0;transition: color 0.3s;transform: perspective(1px) translateZ(0);}
+.swipe-explore2:before {content: "The human eye is comprised of about 2 million working parts.";position: absolute;top: 0;left: 0;right: 10;bottom: 0;z-index: -1;background: #2098D1;transform: scaleX(0.05);transform-origin: 0 50%;transition: transform 0.5s ease-out;}
+.swipe-explore2:hover {color: white;}
+.swipe-explore2:hover:before {transform: scaleX(1);border-radius: 5px;}
+
+.swipe-explore3 {width: 50%;height: 40px;margin-left: 0;transition: color 0.3s;transform: perspective(1px) translateZ(0);}
+.swipe-explore3:before {content: "Ketchup used to be sold as medicine. That’s right; the popular condiment was once thought to be a cure for indigestion.";position: absolute;top: 0;left: 0;right: 10;bottom: 0;z-index: -1;background: #2098D1;transform: scaleX(0.05);transform-origin: 0 50%;transition: transform 0.5s ease-out;}
+.swipe-explore3:hover {color: white;}
+.swipe-explore3:hover:before {transform: scaleX(1);border-radius: 5px;}
 
 
 
