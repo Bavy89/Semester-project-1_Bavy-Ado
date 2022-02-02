@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
 body {background-color: #FFC845;}
 * {margin: 0px auto;}
 .blackarea-1{width: 100%;height: 300px;background: #000000;}
@@ -16,19 +15,34 @@ body {background-color: #FFC845;}
 .navigation li a.active{color: #7DA1C4}
 #nav-check {display: none;}
 .images-index {width: 100%; height: 100%;}
-.image1-index img {margin-top: -300px;margin-left: 70px;}
+.image1-index img {margin-top: -300px;margin-left: 70px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 .image-museum img {margin-top: -300px;display: block;margin-left: auto;margin-right: auto; width: 60%;}
-.text-image {font-size: 10px;width: 80%;font-family: 'Open Sans', sans-serif;margin-left: 70px;}
+.text-image {width: 80%;font-family: 'Open Sans', sans-serif;margin-left: 70px; display: grid; grid-template-columns: 1fr 1fr;}
 .logo-img {width: 100%;height: 100%;display: flex;align-items: center;justify-content: center;}
 .logo-img img {max-width: 100%;}
 .background-image h1 {text-align: center;}
 .background-image img {margin: auto; display: block; width: 60%;}
 .paralellogram {width: 180px;height: 70px;background-color: #FFC845;transform: skewX(30deg);transform-origin: top;margin: 10px;display: flex;justify-content: center;align-items: center;margin: auto;margin-top: 400px;}
 .paralellogram > span {transform: skewX(-30deg);}
-.responsive-map iframe {margin-top: -300px;display: block;margin-left: auto;margin-right: auto; width: 60%;}
-.text-image1 li {list-style: circle; color: #000000; font-size: 20px; font-family: helvetica, Serif; margin-left: -19px;}
+.responsive-map iframe {margin-top: -336px;display: block;margin-left: auto;margin-right: auto; width: 60%;}
+.text-image1 li {list-style: circle; color: #000000; font-size: 20px; font-family: open sans-serif; margin-left: -19px;}
 .image-involved-1 img {margin-top: -180px;display: block;margin-left: auto;margin-right: auto; width: 60%;}
-.image3-involved img {margin-top: -180px;-webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px;width: 30%;display: flex;justify-content: center;}
+.image3-involved img {margin-top: -180px;-webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px;width: 30%;}
+
+.swipe-exhibition1 {width: 60%;height: 60px;margin-left: 0;transition: color 0.3s;transform: perspective(1px) translateZ(0);}
+.swipe-exhibition1:before {content: "One million earths can fit inside the sun";position: absolute;top: 0;left: 0;right: 10;bottom: 0;z-index: -1;background: #2098D1;transform: scaleX(0.05);transform-origin: 0 50%;transition: transform 0.5s ease-out;}
+.swipe-exhibition1:hover {color: white;}
+.swipe-exhibition1:hover:before {transform: scaleX(1);border-radius: 5px;}
+
+.swipe-exhibition2 {width: 60%;height: 60px;margin-left: 0;transition: color 0.3s;transform: perspective(1px) translateZ(0);}
+.swipe-exhibition2:before {content: "We’re not done evolving";position: absolute;top: 0;left: 0;right: 10;bottom: 0;z-index: -1;background: #2098D1;transform: scaleX(0.05);transform-origin: 0 50%;transition: transform 0.5s ease-out;}
+.swipe-exhibition2:hover {color: white;}
+.swipe-exhibition2:hover:before {transform: scaleX(1);border-radius: 5px;}
+
+.swipe-exhibition3 {width: 60%;height: 60px;margin-left: 0;transition: color 0.3s;transform: perspective(1px) translateZ(0);}
+.swipe-exhibition3:before {content: "your heart beats about 100,000 times a day";position: absolute;top: 0;left: 0;right: 10;bottom: 0;z-index: -1;background: #2098D1;transform: scaleX(0.05);transform-origin: 0 50%;transition: transform 0.5s ease-out;}
+.swipe-exhibition3:hover {color: white;}
+.swipe-exhibition3:hover:before {transform: scaleX(1);border-radius: 5px;}
 
 
 
@@ -105,7 +119,7 @@ body {background-color: #FFC845;}
   .navigation > a {display: block;width: 100%;}
   #nav-check:not(:checked) ~ .navigation {height: 0px;}
   #nav-check:checked ~ .navigation {height: 50vh; overflow: auto;}
-  .text-image {font-size: 10px;width: 80%;font-family: 'Poppins', sans-serif;margin-left: 0px;}
+  .text-image {width: 80%;margin-left: 0px;grid-template-columns: 1fr}
   .image1-index img {margin-left: 0px; width: 100%; height: 100%;}
   .blackarea-1 {background: none;}
   .blackarea-2 {background: none;}
@@ -122,7 +136,8 @@ body {background-color: #FFC845;}
   .image1-index img {margin-left: 0px; max-width: 100%;}
   .responsive-map iframe {margin-top: -330px;display: block;margin-left: auto;margin-right: auto; width: 100%;}
   .image-involved-1 img {margin-top: -330px;display: block;margin-left: auto;margin-right: auto; width: 100%;}
-  .image3-involved img {width: 100%;}
+
+
 
 
 
