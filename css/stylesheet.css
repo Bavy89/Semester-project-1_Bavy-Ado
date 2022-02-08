@@ -184,6 +184,7 @@ body {background-color: #FFC845;}
   .bluebox {width: 18%;height: 310px; float: right; background: skyblue; border-radius: 5px;}
   .bluebox p {display: unset;}
   .image3-involved img {margin-top: -295px;}
+  .text-landingpage {margin-top: 0px;}
   }
 
 @media(max-width:768px)
