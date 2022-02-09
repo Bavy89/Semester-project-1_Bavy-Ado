@@ -59,6 +59,9 @@ body {background-color: #FFC845;}
 .swipe-exhibition4:before {content: "Most people start viewing websites from the top left corner. It’s how we’ve been trained to search for data and information.";font-size: 20px; position: absolute;top: 0;left: 0;right: 10;bottom: 0;z-index: -1;background: #62cdff;}
 .swipe-exhibition4:hover {color: white;}
 
+.swipe-exhibition5 {width: 50%;height: 50px;margin-left: 0;transition: color 0.3s;transform: translateZ(0);}
+.swipe-exhibition5:before {content: "Half the world's species live in tropical rainforests";font-size: 20px; position: absolute;top: 0;left: 0;right: 10;bottom: 0;z-index: -1;background: #62cdff;}
+.swipe-exhibition5:hover {color: white;}
 
 .swipe-explore1 {width: 100%;height: 27px;margin-left: 0;transition: color 0.4s;transform: translateZ(0);}
 .swipe-explore1:before {content: "Dolphins only shut half their brain off when sleeping. The other half stays at a low level of alertness to protect against predators, obstacles, or other animals.";font-size: 18px; position: absolute;top: 0;left: 0;right: 10;bottom: 0;z-index: -1;background: #62cdff;}
@@ -184,6 +187,7 @@ body {background-color: #FFC845;}
   .swipe-exhibition2 {display: none;}
   .swipe-exhibition3 {display: none;}
   .swipe-exhibition4 {display: none;}
+  .swipe-exhibition5 {display: none;}
   .image3-involved img {margin-top: -295px;}
   .text-landingpage {margin-top: 0px;}
   .details-container {display: unset; font-size: 18px;}
