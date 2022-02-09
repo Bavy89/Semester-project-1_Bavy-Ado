@@ -28,6 +28,10 @@ body {background-color: #FFC845;}
 .background-image h1 {text-align: center;}
 .background-image img {margin: auto; display: block; width: 60%;}
 
+.text-error h1 {text-align: center;}
+.text-error a {text-align: center;color: white;font-size: 20px;font-weight: bold;text-transform: uppercase;background-color: blue; text-decoration: none;}
+.text-error p  {text-align: center;color: white;font-size: 50px;margin-top: 10px;padding: 28px;}
+
 .responsive-map iframe {margin-top: -336px;display: block;margin-left: auto;margin-right: auto; width: 60%;}
 .text-image1 li {list-style: circle; color: #000000; font-size: 20px; font-family: open sans-serif; margin-left: -19px;}
 .image-involved-1 img {margin-top: -300px;display: block;margin-left: auto;margin-right: auto; width: 100%;}
@@ -39,35 +43,35 @@ body {background-color: #FFC845;}
 
 
 .swipe-exhibition1 {width: 50%;height: 27px;margin-left: 0;transition: color 0.3s;transform: translateZ(0);}
-.swipe-exhibition1:before {content: "One million earths can fit inside the sun";font-size: 20px; position: absolute;top: 0;left: 0;right: 10;bottom: 0;z-index: -1;background: #2098D1;}
+.swipe-exhibition1:before {content: "One million earths can fit inside the sun";font-size: 20px; position: absolute;top: 0;left: 0;right: 10;bottom: 0;z-index: -1;background: #62cdff;}
 .swipe-exhibition1:hover {color: white;}
 
 .swipe-exhibition2 {width: 50%;height: 27px;margin-left: 0;transition: color 0.3s;transform: translateZ(0);}
-.swipe-exhibition2:before {content: "We’re not done evolving";font-size: 20px; position: absolute;top: 0;left: 0;right: 10;bottom: 0;z-index: -1;background: #2098D1;}
+.swipe-exhibition2:before {content: "We’re not done evolving";font-size: 20px; position: absolute;top: 0;left: 0;right: 10;bottom: 0;z-index: -1;background: #62cdff;}
 .swipe-exhibition2:hover {color: white;}
 
 .swipe-exhibition3 {width: 50%;height: 27px;margin-left: 0;transition: color 0.3s;transform: translateZ(0);}
-.swipe-exhibition3:before {content: "Your heart beats about 115,000 every day.";font-size: 20px; position: absolute;top: 0;left: 0;right: 10;bottom: 0;z-index: -1;background: #2098D1;}
+.swipe-exhibition3:before {content: "Your heart beats about 115,000 every day.";font-size: 20px; position: absolute;top: 0;left: 0;right: 10;bottom: 0;z-index: -1;background: #62cdff;}
 .swipe-exhibition3:hover {color: white;}
 
 
 .swipe-exhibition4 {width: 50%;height: 50px;margin-left: 0;transition: color 0.3s;transform: translateZ(0);}
-.swipe-exhibition4:before {content: "Most people start viewing websites from the top left corner. It’s how we’ve been trained to search for data and information.";font-size: 20px; position: absolute;top: 0;left: 0;right: 10;bottom: 0;z-index: -1;background: #2098D1;}
+.swipe-exhibition4:before {content: "Most people start viewing websites from the top left corner. It’s how we’ve been trained to search for data and information.";font-size: 20px; position: absolute;top: 0;left: 0;right: 10;bottom: 0;z-index: -1;background: #62cdff;}
 .swipe-exhibition4:hover {color: white;}
 
 
 .swipe-explore1 {width: 100%;height: 27px;margin-left: 0;transition: color 0.4s;transform: translateZ(0);}
-.swipe-explore1:before {content: "Dolphins only shut half their brain off when sleeping. The other half stays at a low level of alertness to protect against predators, obstacles, or other animals.";font-size: 18px; position: absolute;top: 0;left: 0;right: 10;bottom: 0;z-index: -1;background: #2098D1;}
+.swipe-explore1:before {content: "Dolphins only shut half their brain off when sleeping. The other half stays at a low level of alertness to protect against predators, obstacles, or other animals.";font-size: 18px; position: absolute;top: 0;left: 0;right: 10;bottom: 0;z-index: -1;background: #62cdff;}
 .swipe-explore1:hover {color: white;}
 
 
 .swipe-explore2 {width: 100%;height: 27px;margin-left: 0;transition: color 0.4s;transform: translateZ(0);}
-.swipe-explore2:before {content: "The human eye is comprised of about 2 million working parts.";font-size: 20px;position: absolute;top: 0;left: 0;right: 10;bottom: 0;z-index: -1;background: #2098D1;}
+.swipe-explore2:before {content: "The human eye is comprised of about 2 million working parts.";font-size: 20px;position: absolute;top: 0;left: 0;right: 10;bottom: 0;z-index: -1;background: #62cdff;}
 .swipe-explore2:hover {color: white;}
 
 
 .swipe-explore3 {width: 100%;height: 27px;margin-left: 0;transition: color 0.4s;transform: translateZ(0);}
-.swipe-explore3:before {content: "Ketchup used to be sold as medicine. That’s right; the popular condiment was once thought to be a cure for indigestion.";font-size: 20px; position: absolute;top: 0;left: 0;right: 10;bottom: 0;z-index: -1;background: #2098D1;}
+.swipe-explore3:before {content: "Ketchup used to be sold as medicine. That’s right; the popular condiment was once thought to be a cure for indigestion.";font-size: 20px; position: absolute;top: 0;left: 0;right: 10;bottom: 0;z-index: -1;background: #62cdff;}
 .swipe-explore3:hover {color: white;}
 
 
@@ -183,7 +187,7 @@ body {background-color: #FFC845;}
   .image3-involved img {margin-top: -295px;}
   .text-landingpage {margin-top: 0px;}
   .details-container {display: unset; font-size: 18px;}
-  .details-container details {background-color: #2098D1;}
+  .details-container details {background-color: #62cdff; margin-top: 10px;}
 
 }
 
