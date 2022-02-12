@@ -205,6 +205,10 @@ body {background-color: #FFC845;}
   .events ul{margin-left: -40px;}
   .events li {padding: 0;}
 
+  @media (max-width:300px){
+  .date { margin-right: 20px;}
+  }
+
 }
 
 @media(max-width:768px)
