@@ -77,6 +77,15 @@ body {background-color: #FFC845;}
 .swipe-explore3:before {content: "Ketchup used to be sold as medicine. That’s right; the popular condiment was once thought to be a cure for indigestion.";font-size: 20px; position: absolute;top: 0;left: 0;right: 10;bottom: 0;z-index: -1;background: #62cdff;}
 .swipe-explore3:hover {color: white;}
 
+/*Events*/
+.text-events {color: #ffffff; text-align: center;background: #5d7fad;}
+.events ul{max-width: 500px;}
+.events li{ margin: 10px 0;list-style: none; display: flex;flex-wrap: no-wrap;align-items: center;text-decoration: none;color: #000;position: relative;background-color: #eee;padding: 1em 1em 1em 0;}
+.date{min-width: 100px;text-align: center;z-index: 0;margin-right: 200px;}
+
+
+/*Events*/
+
 
 
 
@@ -193,7 +202,8 @@ body {background-color: #FFC845;}
   .details-container {display: unset; font-size: 18px;}
   .details-container details {background-color: #62cdff; margin-top: 10px;}
   .text-image1 {margin-left: 10px;}
-
+  .events ul{margin-left: -40px;}
+  .events li {padding: 0;}
 
 }
 
