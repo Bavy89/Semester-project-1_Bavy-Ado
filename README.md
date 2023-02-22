@@ -9,7 +9,7 @@ Semester-project-1
 This is a website i made for a school project.
 It is a website for a community museum.
 
-It built very simple with html and css, and the website is responsive on almost every device. 
+It is built very simple with html and css, and the website is responsive on almost every device. 
 
 
 Please feel free to take a look! 
